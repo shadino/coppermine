@@ -1,0 +1,29 @@
+import pygame
+import random
+
+
+# tile size and window settings
+WINDOW_WIDTH = 1200
+WINDOW_HEIGHT = 700
+ROWS = 3
+COLUMNS = 20
+TILE_BG_TYPES = 13
+TILE_SIZE = WINDOW_HEIGHT // ROWS
+
+BACKGROUND = (190, 190, 190, 255)
+SCALE = 3
+
+SCROLL_THRESH = 100
+SCREEN_SCROLL = 0
+
+# Player settings
+SPEED = 200
+ANIMATION_COOLDOWN = 100
+
+# AI VARIABLES
+PATROL_TIMER = 500
+
+# HealthBar Colors
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLACK = (0, 0, 0)
